@@ -249,11 +249,8 @@ export default function RecipeGenerator() {
               </div>
             </CardContent>
             <CardFooter className="flex gap-2">
-              <Button variant="outline" className="flex-1" onClick={() => openRecipeDetails(recipe)}>
+              <Button variant="outline" className="w-full" onClick={() => openRecipeDetails(recipe)}>
                 View Recipe
-              </Button>
-              <Button variant="outline" className="flex-1" onClick={() => window.open(recipe.sourceUrl)}>
-                Source
               </Button>
             </CardFooter>
           </Card>
